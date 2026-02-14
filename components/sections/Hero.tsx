@@ -62,7 +62,7 @@ export function Hero({ onNavigate }: HeroProps) {
                     {/* Main Headline */}
                     <motion.h1
                         variants={fadeInUp}
-                        className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-[1.08] tracking-tighter"
+                        className="text-2xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-[1.08] tracking-tighter"
                     >
                         I build{' '}
                         <span className="gradient-text-animated">
@@ -88,7 +88,7 @@ export function Hero({ onNavigate }: HeroProps) {
                     {/* Title */}
                     <motion.p
                         variants={fadeInUp}
-                        className="text-xl md:text-2xl text-primary font-semibold mb-5"
+                        className="text-sm md:text-2xl text-primary font-semibold mb-5"
                     >
                         {portfolioConfig.personal.title}
                     </motion.p>
