@@ -8,7 +8,7 @@ export const portfolioConfig = {
     email: 'swapnilsbwork@gmail.com',
     location: 'Gandhinagar, India',
     timezone: 'GMT+5:30',
-    avatar: '/avatar.jpg',
+    avatar: '/swapnil.png',
     resume: '/Swapnil Singh.pdf',
   },
 
