@@ -1,7 +1,7 @@
 export const portfolioConfig = {
   personal: {
     name: 'Swapnil Singh',
-    title: 'Full Stack Developer & Cloud Architect',
+    title: 'Full Stack Developer',
     tagline: 'Available for Opportunities',
     bio: 'I craft enterprise-grade web applications and cloud-native systems that scale. Passionate about clean architecture, real-time data, and delightful user experiences.',
     extendedBio: 'Results-driven full stack developer with 3+ years of hands-on experience designing and delivering scalable web applications, backend systems, and cloud-native architectures. Specialized in React JS, Node.js, Laravel, and AWS.',
@@ -20,8 +20,8 @@ export const portfolioConfig = {
 
   stats: [
     { value: '3+', label: 'Years Experience' },
-    { value: '10+', label: 'Projects Shipped' },
-    { value: '100%', label: 'Client Satisfaction' },
+    { value: '10+', label: 'Live Projects Experience' },
+    // { value: '100%', label: 'Client Satisfaction' },
   ],
 
   about: {
@@ -137,10 +137,10 @@ export const portfolioConfig = {
         'Built from scratch to handle high-traffic during live matches with optimized caching strategies and real-time data synchronization.',
       link: 'www.cricwale.in',
       tech: ['React JS', 'Context API', 'REST APIs', 'Real-time Updates'],
-      metrics: [
-        { label: 'Monthly Users', value: '5K+' },
-        { label: 'API Calls/Day', value: '50K+' },
-      ],
+      // metrics: [
+      //   { label: 'Monthly Users', value: '5K+' },
+      //   { label: 'API Calls/Day', value: '50K+' },
+      // ],
       features: [
         'Live score updates with sub-second latency',
         'Comprehensive match statistics and player profiles',
@@ -150,72 +150,72 @@ export const portfolioConfig = {
       type: 'personal',
       featured: true,
     },
-    {
-      title: 'GIS Analytics Dashboard',
-      subtitle: 'Enterprise Geospatial Platform',
-      description:
-        'Interactive geographic information system with layered spatial visualizations including heatmaps, boundary overlays, and real-time data rendering.',
-      longDescription:
-        'Architected for enterprise use with support for massive datasets and complex geospatial queries.',
-      link: undefined,
-      tech: ['Next.js', 'Mapbox GL', 'GeoServer', 'PostgreSQL/PostGIS'],
-      metrics: [
-        { label: 'Data Points', value: '1M+' },
-        { label: 'Map Layers', value: '15+' },
-      ],
-      features: [
-        'Interactive heatmaps and choropleth maps',
-        'Real-time boundary and line overlays',
-        'Custom layer controls and filtering',
-        'Export and reporting capabilities',
-      ],
-      type: 'enterprise',
-      featured: true,
-    },
-    {
-      title: 'Real-time Analytics Platform',
-      subtitle: 'AWS-powered Data Pipeline',
-      description:
-        'Enterprise analytics dashboard processing live streaming data with AWS Kinesis, enabling instant business insights and decision-making.',
-      longDescription:
-        'Designed to handle high-throughput data streams with fault tolerance and automatic scaling.',
-      link: undefined,
-      tech: ['React', 'AWS Kinesis', 'ApexCharts', 'Lambda', 'DynamoDB'],
-      metrics: [
-        { label: 'Events/Second', value: '10K+' },
-        { label: 'Latency', value: '<1s' },
-      ],
-      features: [
-        'Real-time streaming data visualization',
-        'Custom dashboard widgets and layouts',
-        'Automated alerts and notifications',
-        'Historical data analysis and trends',
-      ],
-      type: 'enterprise',
-      featured: true,
-    },
-    {
-      title: 'Content Migration Automation',
-      subtitle: 'CMS Data Pipeline',
-      description:
-        'Automated migration system that transferred 5000+ multilingual content pages from legacy CMS to modern platform with full data integrity.',
-      longDescription:
-        'Built custom parsers and validators to ensure zero data loss during migration.',
-      link: undefined,
-      tech: ['Python', 'Node.js', 'PostgreSQL', 'REST APIs'],
-      metrics: [
-        { label: 'Pages Migrated', value: '5K+' },
-        { label: 'Languages', value: '3' },
-      ],
-      features: [
-        'Automated content parsing and transformation',
-        'Multi-language support with encoding handling',
-        'Validation and integrity checks',
-        'Rollback capabilities',
-      ],
-      type: 'enterprise',
-      featured: false,
-    },
+    // {
+    //   title: 'GIS Analytics Dashboard',
+    //   subtitle: 'Enterprise Geospatial Platform',
+    //   description:
+    //     'Interactive geographic information system with layered spatial visualizations including heatmaps, boundary overlays, and real-time data rendering.',
+    //   longDescription:
+    //     'Architected for enterprise use with support for massive datasets and complex geospatial queries.',
+    //   link: undefined,
+    //   tech: ['Next.js', 'Mapbox GL', 'GeoServer', 'PostgreSQL/PostGIS'],
+    //   metrics: [
+    //     { label: 'Data Points', value: '1M+' },
+    //     { label: 'Map Layers', value: '15+' },
+    //   ],
+    //   features: [
+    //     'Interactive heatmaps and choropleth maps',
+    //     'Real-time boundary and line overlays',
+    //     'Custom layer controls and filtering',
+    //     'Export and reporting capabilities',
+    //   ],
+    //   type: 'enterprise',
+    //   featured: true,
+    // },
+    // {
+    //   title: 'Real-time Analytics Platform',
+    //   subtitle: 'AWS-powered Data Pipeline',
+    //   description:
+    //     'Enterprise analytics dashboard processing live streaming data with AWS Kinesis, enabling instant business insights and decision-making.',
+    //   longDescription:
+    //     'Designed to handle high-throughput data streams with fault tolerance and automatic scaling.',
+    //   link: undefined,
+    //   tech: ['React', 'AWS Kinesis', 'ApexCharts', 'Lambda', 'DynamoDB'],
+    //   metrics: [
+    //     { label: 'Events/Second', value: '10K+' },
+    //     { label: 'Latency', value: '<1s' },
+    //   ],
+    //   features: [
+    //     'Real-time streaming data visualization',
+    //     'Custom dashboard widgets and layouts',
+    //     'Automated alerts and notifications',
+    //     'Historical data analysis and trends',
+    //   ],
+    //   type: 'enterprise',
+    //   featured: true,
+    // },
+    // {
+    //   title: 'Content Migration Automation',
+    //   subtitle: 'CMS Data Pipeline',
+    //   description:
+    //     'Automated migration system that transferred 5000+ multilingual content pages from legacy CMS to modern platform with full data integrity.',
+    //   longDescription:
+    //     'Built custom parsers and validators to ensure zero data loss during migration.',
+    //   link: undefined,
+    //   tech: ['Python', 'Node.js', 'PostgreSQL', 'REST APIs'],
+    //   metrics: [
+    //     { label: 'Pages Migrated', value: '5K+' },
+    //     { label: 'Languages', value: '3' },
+    //   ],
+    //   features: [
+    //     'Automated content parsing and transformation',
+    //     'Multi-language support with encoding handling',
+    //     'Validation and integrity checks',
+    //     'Rollback capabilities',
+    //   ],
+    //   type: 'enterprise',
+    //   featured: false,
+    // },
   ],
 
   contact: {

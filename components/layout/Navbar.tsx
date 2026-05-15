@@ -75,8 +75,8 @@ export function Navbar({ activeSection, onNavigate }: NavbarProps) {
                 animate={{ y: 0 }}
                 transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
                 className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled
-                        ? 'bg-background/70 backdrop-blur-xl border-b border-border/50 shadow-sm'
-                        : 'bg-transparent'
+                    ? 'bg-background/70 backdrop-blur-xl border-b border-border/50 shadow-sm'
+                    : 'bg-transparent'
                     }`}
             >
                 <div className="max-w-7xl mx-auto px-6 py-3.5">
@@ -97,7 +97,7 @@ export function Navbar({ activeSection, onNavigate }: NavbarProps) {
                                 />
                             </div>
                             <span className="hidden sm:inline text-sm font-bold gradient-text">
-                                {portfolioConfig.personal.name.split(' ')[0]}
+                                {portfolioConfig.personal.name}
                             </span>
                         </button>
 
@@ -108,8 +108,8 @@ export function Navbar({ activeSection, onNavigate }: NavbarProps) {
                                     key={id}
                                     onClick={() => handleNavClick(id)}
                                     className={`relative px-3.5 py-1.5 text-sm font-medium rounded-full transition-colors duration-200 ${activeSection === id
-                                            ? 'text-primary-foreground'
-                                            : 'text-muted-foreground hover:text-foreground'
+                                        ? 'text-primary-foreground'
+                                        : 'text-muted-foreground hover:text-foreground'
                                         }`}
                                 >
                                     {activeSection === id && (
@@ -192,8 +192,8 @@ export function Navbar({ activeSection, onNavigate }: NavbarProps) {
                                     transition={{ delay: idx * 0.04 }}
                                     onClick={() => handleNavClick(id)}
                                     className={`block w-full text-left px-4 py-3 rounded-xl text-base font-medium transition-colors ${activeSection === id
-                                            ? 'bg-primary/10 text-primary'
-                                            : 'hover:bg-secondary/50'
+                                        ? 'bg-primary/10 text-primary'
+                                        : 'hover:bg-secondary/50'
                                         }`}
                                 >
                                     {label}

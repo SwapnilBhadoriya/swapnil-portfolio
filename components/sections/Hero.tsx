@@ -68,8 +68,8 @@ export function Hero({ onNavigate }: HeroProps) {
                         <span className="gradient-text-animated">
                             <TypeAnimation
                                 sequence={[
-                                    'cloud solutions',
-                                    2500,
+                                    // 'cloud solutions',
+                                    // 2500,
                                     'web applications',
                                     2500,
                                     'digital experiences',
